@@ -1273,3 +1273,17 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-19.53.52:823][197]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
 [2026.02.12-19.53.52:824][197]AssetCheck: /Game/BluePrints/BP_box Validating asset
 [2026.02.12-19.53.52:854][197]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.12-19.54.18:088][293]LogHttp: Warning: 00000173CF215B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: request failed, libcurl error: 35 (SSL connect error)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 0 (  Trying 127.0.0.1:9999...)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 1 (CONNECT tunnel: HTTP/1.1 negotiated)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 2 (allocate connect buffer)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 4 (CONNECT phase completed)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 5 (CONNECT tunnel established, response 200)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 6 (ALPN: curl offers http/1.1)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 8 (TLS connect error: error:00000000:lib(0):func(0):reason(0))
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 9 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00: libcurl info message cache 10 (closing connection #3)
+[2026.02.12-19.54.18:089][293]LogHttp: Warning: 00000173CF215B00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.10s
