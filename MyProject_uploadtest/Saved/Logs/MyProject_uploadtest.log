@@ -1176,3 +1176,36 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 9 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
 [2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 10 (closing connection #0)
 [2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.11s
+[2026.02.12-19.51.46:285][371]Cmd: DELETE
+[2026.02.12-19.51.46:285][371]Cmd: ACTOR DELETE
+[2026.02.12-19.51.46:286][371]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.02.12-19.51.46:306][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.02.12-19.51.46:309][371]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2026.02.12-19.51.54:868][546]Cmd: DELETE
+[2026.02.12-19.51.54:868][546]Cmd: ACTOR DELETE
+[2026.02.12-19.51.54:870][546]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.02.12-19.51.54:889][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.02.12-19.51.54:891][546]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2026.02.12-19.51.59:306][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.02.12-19.51.59:312][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-19.51.59:423][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.02.12-19.51.59:444][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.02.12-19.51.59:464][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.02.12-19.51.59:502][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.323 ms
+[2026.02.12-19.51.59:512][624]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.12-19.52.07:777][677]LogDerivedDataCache: C:/Users/4025980/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: request failed, libcurl error: 35 (SSL connect error)
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: libcurl info message cache 1 (  Trying 127.0.0.1:9999...)
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: libcurl info message cache 2 (CONNECT tunnel: HTTP/1.1 negotiated)
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: libcurl info message cache 3 (allocate connect buffer)
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: libcurl info message cache 4 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2026.02.12-19.52.18:491][709]LogHttp: Warning: 000001745E938C00: libcurl info message cache 5 (CONNECT phase completed)
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 6 (CONNECT tunnel established, response 200)
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 7 (ALPN: curl offers http/1.1)
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 9 (TLS connect error: error:00000000:lib(0):func(0):reason(0))
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 10 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 11 (closing connection #1)
+[2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.09s
