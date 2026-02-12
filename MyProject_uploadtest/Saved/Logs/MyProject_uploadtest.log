@@ -958,3 +958,193 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-19.50.14:587][  0]LogInit: XR: Mobile Multiview is Disabled
 [2026.02.12-19.50.14:618][  0]LogTurnkeySupport: Turnkey Device: Win64@BIG434824LN: (Name=BIG434824LN, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.22631.0, Flags="Device_InstallSoftwareValid")
 [2026.02.12-19.50.14:632][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.02.12-19.50.15:136][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.02.12-19.50.15:140][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2026.02.12-19.50.15:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.02.12-19.50.15:141][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:63396'.
+[2026.02.12-19.50.15:149][  0]LogUdpMessaging: Display: Added local interface '10.61.35.200' to multicast group '230.0.0.1:6666'
+[2026.02.12-19.50.15:152][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.02.12-19.50.15:356][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.02.12-19.50.15:357][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.02.12-19.50.15:385][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.02.12-19.50.15:644][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 6B589F09D4B840468000000000002000 | Instance: FACD93AC4517DAD79B5B4CBF44E4EF83 (BIG434824LN-24040).
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: No NPU adapter found with attribute DXCORE_ADAPTER_ATTRIBUTE_D3D12_GENERIC_ML (Windows 11 Version 24H2 or newer)!
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: 0: Intel(R) Iris(R) Xe Graphics (Compute, Graphics)
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: 1: NVIDIA RTX A500 Laptop GPU (Compute, Graphics)
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   NPU:       no
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT: Interface availability:
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   GPU: yes
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   RDG: yes
+[2026.02.12-19.50.15:889][  0]LogNNERuntimeORT:   NPU: no
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: No NPU adapter found with attribute DXCORE_ADAPTER_ATTRIBUTE_D3D12_GENERIC_ML (Windows 11 Version 24H2 or newer)!
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: 0: Intel(R) Iris(R) Xe Graphics (Compute, Graphics)
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: 1: NVIDIA RTX A500 Laptop GPU (Compute, Graphics)
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.02.12-19.50.16:013][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.02.12-19.50.16:051][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.02.12-19.50.16:051][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.02.12-19.50.16:068][  0]LogTimingProfiler: Initialize
+[2026.02.12-19.50.16:069][  0]LogTimingProfiler: OnSessionChanged
+[2026.02.12-19.50.16:069][  0]LoadingProfiler: Initialize
+[2026.02.12-19.50.16:069][  0]LoadingProfiler: OnSessionChanged
+[2026.02.12-19.50.16:069][  0]LogNetworkingProfiler: Initialize
+[2026.02.12-19.50.16:069][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.02.12-19.50.16:069][  0]LogMemoryProfiler: Initialize
+[2026.02.12-19.50.16:069][  0]LogMemoryProfiler: OnSessionChanged
+[2026.02.12-19.50.16:111][  0]SourceControl: Revision control is disabled
+[2026.02.12-19.50.16:125][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2026.02.12-19.50.16:125][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.02.12-19.50.16:125][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2026.02.12-19.50.16:125][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.02.12-19.50.16:138][  0]SourceControl: Revision control is disabled
+[2026.02.12-19.50.16:499][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.02.12-19.50.16:526][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.12-19.50.16:526][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.12-19.50.16:570][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.02.12-19.50.16:952][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.02.12-19.50.16:961][  0]LogCollectionManager: Loaded 0 collections in 0.004228 seconds
+[2026.02.12-19.50.16:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Saved/Collections/' took 0.01s
+[2026.02.12-19.50.16:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/Developers/4025980/Collections/' took 0.01s
+[2026.02.12-19.50.17:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/Collections/' took 0.01s
+[2026.02.12-19.50.17:175][  0]LogUObjectArray: 42229 objects as part of root set at end of initial load.
+[2026.02.12-19.50.17:175][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.02.12-19.50.17:434][  0]LogEngine: Initializing Engine...
+[2026.02.12-19.50.17:566][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.02.12-19.50.17:566][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2026.02.12-19.50.17:833][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.02.12-19.50.17:853][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.02.12-19.50.17:876][  0]LogTexture: Display: Waiting for textures to be ready 23/37 (/Engine/EngineMaterials/BaseFlattenEmissiveMap_VT) ...
+[2026.02.12-19.50.17:905][  0]LogTexture: Display: Waiting for textures to be ready 24/37 (/Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT) ...
+[2026.02.12-19.50.17:917][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.02.12-19.50.17:945][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.02.12-19.50.17:945][  0]LogInit: Texture streaming: Enabled
+[2026.02.12-19.50.17:955][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.0-43139311+++UE5+Release-5.6 )
+[2026.02.12-19.50.17:966][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.02.12-19.50.17:977][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.02.12-19.50.17:978][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.02.12-19.50.17:979][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.02.12-19.50.17:979][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.12-19.50.17:979][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.12-19.50.17:979][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.12-19.50.17:979][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.12-19.50.17:979][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.12-19.50.17:979][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.12-19.50.18:007][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.12-19.50.19:099][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Realtek(R) Audio)
+[2026.02.12-19.50.19:100][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.12-19.50.19:101][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.12-19.50.19:101][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.12-19.50.19:103][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.12-19.50.19:103][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.12-19.50.19:105][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.12-19.50.19:106][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.02.12-19.50.19:106][  0]LogInit: FAudioDevice initialized with ID 1.
+[2026.02.12-19.50.19:106][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.02.12-19.50.19:106][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2026.02.12-19.50.19:113][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.02.12-19.50.19:124][  0]LogInit: Undo buffer set to 256 MB
+[2026.02.12-19.50.19:125][  0]LogInit: Transaction tracking system initialized
+[2026.02.12-19.50.19:223][  0]LocalizationService: Localization service is disabled
+[2026.02.12-19.50.19:340][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.02.12-19.50.19:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/' took 0.01s
+[2026.02.12-19.50.19:379][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.02.12-19.50.19:379][  0]LogPython: Using Python 3.11.8
+[2026.02.12-19.50.19:407][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.02.12-19.50.19:950][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.02.12-19.50.20:078][  0]LogEditorDataStorage: Initializing
+[2026.02.12-19.50.20:082][  0]LogEditorDataStorage: Initialized
+[2026.02.12-19.50.20:087][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2026.02.12-19.50.20:194][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.02.12-19.50.20:205][  0]SourceControl: Revision control is disabled
+[2026.02.12-19.50.20:205][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.311
+[2026.02.12-19.50.20:207][  0]Cmd: MAP LOAD FILE="../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/ThirdPerson/Lvl_ThirdPerson.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.12-19.50.20:210][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.50.20:210][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.50.20:238][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.50.20:242][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.12-19.50.20:426][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2026.02.12-19.50.20:888][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson'.
+[2026.02.12-19.50.20:888][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.02.12-19.50.20:890][  0]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.02.12-19.50.20:890][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.12-19.50.20:890][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.12-19.50.20:977][  0]LogWorldPartition: Display: WorldPartition initialize took 87.123 ms
+[2026.02.12-19.50.20:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.12-19.50.21:022][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.02.12-19.50.21:022][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.12-19.50.21:023][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.655ms to complete.
+[2026.02.12-19.50.21:032][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.138
+[2026.02.12-19.50.21:141][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2026.02.12-19.50.21:241][  0]LogAssetRegistry: Display: Asset registry cache written as 69.3 MiB to ../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Intermediate/CachedAssetRegistry_*.bin
+[2026.02.12-19.50.21:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-19.50.21:347][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-19.50.21:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-19.50.21:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-19.50.21:540][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:540][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:540][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:541][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:541][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:541][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:541][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:541][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:542][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:542][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:542][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:542][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:542][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:543][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:543][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:543][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:543][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:543][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:543][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.12-19.50.21:543][  0]LogPakFile: Display: Mounted Pak file 'C:/Epic Games/5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.02.12-19.50.21:713][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.02.12-19.50.21:718][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.02.12-19.50.21:719][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.02.12-19.50.22:516][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (10 graphics, 40 compute). 0 of them were precached.
+[2026.02.12-19.50.23:001][  0]LogPSOHitching: Encountered 100 PSO creation hitches so far (10 graphics, 90 compute). 0 of them were precached.
+[2026.02.12-19.50.23:509][  0]LogPSOHitching: Encountered 150 PSO creation hitches so far (23 graphics, 127 compute). 0 of them were precached.
+[2026.02.12-19.50.24:053][  0]LogStall: Startup...
+[2026.02.12-19.50.24:057][  0]LogStall: Startup complete.
+[2026.02.12-19.50.24:140][  0]LogLoad: (Engine Initialization) Total time: 20.25 seconds
+[2026.02.12-19.50.24:474][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.02.12-19.50.24:474][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.02.12-19.50.25:196][  0]LogPSOHitching: Encountered 200 PSO creation hitches so far (36 graphics, 164 compute). 0 of them were precached.
+[2026.02.12-19.50.25:521][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.02.12-19.50.25:575][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.50.25:577][  0]LogPython: Display: Running start-up script C:/Epic Games/5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.02.12-19.50.25:623][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.02.12-19.50.25:633][  0]LogPython: Display: Running start-up script C:/Epic Games/5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 56.625 ms
+[2026.02.12-19.50.25:982][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/' took 1.57s
+[2026.02.12-19.50.25:983][  1]LogAssetRegistry: AssetRegistryGather time 0.8247s: AssetDataDiscovery 0.0498s, AssetDataGather 0.7125s, StoreResults 0.0624s. Wall time 16.5570s.
+	NumCachedDirectories 0. NumUncachedDirectories 1537. NumCachedFiles 0. NumUncachedFiles 7409.
+	BackgroundTickInterruptions 0.
+[2026.02.12-19.50.26:023][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2026.02.12-19.50.26:031][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.02.12-19.50.26:032][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2026.02.12-19.50.26:820][  4]LogPSOHitching: Encountered 250 PSO creation hitches so far (55 graphics, 195 compute). 0 of them were precached.
+[2026.02.12-19.50.26:918][  4]LogSourceControl: Uncontrolled asset discovery finished in 0.885993 seconds (Found 7385 uncontrolled assets)
+[2026.02.12-19.50.27:092][  4]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.02.12-19.50.27:193][  4]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.02.12-19.50.27:393][  4]LogD3D12RHI: Waited for PSO creation for 400.000000ms
+[2026.02.12-19.50.28:232][  4]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.02.12-19.50.28:305][  4]LogPSOHitching: Encountered 300 PSO creation hitches so far (65 graphics, 235 compute). 0 of them were precached.
