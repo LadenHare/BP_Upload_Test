@@ -1148,3 +1148,31 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-19.50.27:393][  4]LogD3D12RHI: Waited for PSO creation for 400.000000ms
 [2026.02.12-19.50.28:232][  4]LogD3D12RHI: Waited for PSO creation for 100.000000ms
 [2026.02.12-19.50.28:305][  4]LogPSOHitching: Encountered 300 PSO creation hitches so far (65 graphics, 235 compute). 0 of them were precached.
+[2026.02.12-19.50.47:917][128]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.02.12-19.50.48:718][129]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.02.12-19.50.48:995][129]LogSlate: Took 0.000507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.02.12-19.50.49:047][129]LogPSOHitching: Encountered 350 PSO creation hitches so far (77 graphics, 273 compute). 0 of them were precached.
+[2026.02.12-19.50.50:847][131]Cmd: DELETE
+[2026.02.12-19.50.50:858][131]Cmd: ACTOR DELETE
+[2026.02.12-19.50.50:876][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.02.12-19.50.50:936][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.02.12-19.50.50:937][131]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2026.02.12-19.50.55:525][145]Cmd: DELETE
+[2026.02.12-19.50.55:525][145]Cmd: ACTOR DELETE
+[2026.02.12-19.50.55:526][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.02.12-19.50.55:547][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.02.12-19.50.55:549][145]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2026.02.12-19.51.18:324][218]LogHttp: Warning: 00000173D93E9300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.12-19.51.18:324][218]LogHttp: Warning: 00000173D93E9300: request failed, libcurl error: 35 (SSL connect error)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 0 (  Trying 127.0.0.1:9999...)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 1 (CONNECT tunnel: HTTP/1.1 negotiated)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 2 (allocate connect buffer)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 4 (CONNECT phase completed)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 5 (CONNECT tunnel established, response 200)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 6 (ALPN: curl offers http/1.1)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 8 (TLS connect error: error:00000000:lib(0):func(0):reason(0))
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 9 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300: libcurl info message cache 10 (closing connection #0)
+[2026.02.12-19.51.18:325][218]LogHttp: Warning: 00000173D93E9300 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.11s
