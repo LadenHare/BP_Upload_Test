@@ -1209,3 +1209,67 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 10 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
 [2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00: libcurl info message cache 11 (closing connection #1)
 [2026.02.12-19.52.18:491][710]LogHttp: Warning: 000001745E938C00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.09s
+[2026.02.12-19.52.41:632][832]LogSlate: Took 0.012286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.02.12-19.52.46:283][ 39]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.12-19.52.46:309][ 39]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.12-19.52.46:317][ 40]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.12-19.52.51:662][214]LogContentBrowser: Attempting asset rename: NewFolder -> BluePrints
+[2026.02.12-19.52.51:663][214]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.12-19.52.58:378][415]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.02.12-19.52.58:397][415]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.02.12-19.52.58:404][415]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.02.12-19.52.58:447][417]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.02.12-19.53.06:104][628]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_box
+[2026.02.12-19.53.06:118][628]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.02.12-19.53.07:348][655]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_box.BP_box
+[2026.02.12-19.53.07:348][655]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.02.12-19.53.07:658][655]LogStreaming: Display: FlushAsyncLoading(395): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: request failed, libcurl error: 35 (SSL connect error)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 0 (Hostname 127.0.0.1 was found in DNS cache)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 1 (  Trying 127.0.0.1:9999...)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 2 (CONNECT tunnel: HTTP/1.1 negotiated)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 3 (allocate connect buffer)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 4 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 5 (CONNECT phase completed)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 6 (CONNECT tunnel established, response 200)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 7 (ALPN: curl offers http/1.1)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.02.12-19.53.18:131][740]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 9 (TLS connect error: error:00000000:lib(0):func(0):reason(0))
+[2026.02.12-19.53.18:131][741]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 10 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2026.02.12-19.53.18:131][741]LogHttp: Warning: 00000174CE2D1C00: libcurl info message cache 11 (closing connection #2)
+[2026.02.12-19.53.18:131][741]LogHttp: Warning: 00000174CE2D1C00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3B79B97-4458-1175-46F0-B8877CA87CFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=0903c7534aa138be80d7d68e028ab4a5%7C%7C9e37431f-b6ec-49f1-a54f-a2ce62c7cd0b&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.10s
+[2026.02.12-19.53.18:862][779]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.02.12-19.53.28:960][833]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_box.BP_box_C
+[2026.02.12-19.53.28:960][833]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_box.BP_box_C
+[2026.02.12-19.53.28:963][833]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_box.BP_box as actor: BP_box_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_box_C_0
+[2026.02.12-19.53.28:964][833]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_box.BP_box as actor: BP_box_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_box_C_0
+[2026.02.12-19.53.28:971][833]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.02.12-19.53.31:489][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.02.12-19.53.31:491][841]LogEditorActor: Deleted 0 Actors (0.042 secs)
+[2026.02.12-19.53.31:499][841]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_box.BP_box_C
+[2026.02.12-19.53.31:499][841]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_box.BP_box_C
+[2026.02.12-19.53.31:508][841]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_box.BP_box as actor: BP_box_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_box_C_UAID_D4D8538AB3F759BE02_1631543799
+[2026.02.12-19.53.31:510][841]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_box.BP_box as actor: BP_box_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_box_C_UAID_D4D8538AB3F759BE02_1631543799
+[2026.02.12-19.53.52:404][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.02.12-19.53.52:409][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-19.53.52:526][197]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/3I/TKBSFX35PHGD33NIYEFT50
+[2026.02.12-19.53.52:526][197]LogSavePackage: Moving '../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Saved/TKBSFX35PHGD33NIYEFT50292A5059405BDB7B2178D79BBF117255.tmp' to '../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/3I/TKBSFX35PHGD33NIYEFT50.uasset'
+[2026.02.12-19.53.52:529][197]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/BP_box] ([2] browsable assets)...
+[2026.02.12-19.53.52:659][197]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_box.BP_box]
+[2026.02.12-19.53.52:659][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_box]
+[2026.02.12-19.53.52:659][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_box" FILE="../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/BluePrints/BP_box.uasset" SILENT=true
+[2026.02.12-19.53.52:677][197]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_box
+[2026.02.12-19.53.52:677][197]LogSavePackage: Moving '../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Saved/BP_box267E39064BC923B86C65749D4FA6DC73.tmp' to '../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Content/BluePrints/BP_box.uasset'
+[2026.02.12-19.53.52:711][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 302.288 ms (total: 492.612 ms)
+[2026.02.12-19.53.52:822][197]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.12-19.53.52:822][197]LogContentValidation: Enabled validators:
+[2026.02.12-19.53.52:822][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.12-19.53.52:822][197]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.12-19.53.52:822][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.12-19.53.52:822][197]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.12-19.53.52:822][197]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.12-19.53.52:822][197]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.12-19.53.52:823][197]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.02.12-19.53.52:824][197]AssetCheck: /Game/BluePrints/BP_box Validating asset
+[2026.02.12-19.53.52:854][197]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/4025980/Documents/Unreal Projects/BP_Upload_Test/MyProject_uploadtest/Saved/SourceControl/UncontrolledChangelists.json
